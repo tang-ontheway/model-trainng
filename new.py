@@ -42,7 +42,7 @@ def build_agent():
 
 def main():
     agent = build_agent()
-    question = "今天是几月几号？历史上的今天有哪些名人出生？"
+    question = "当前北京的温度是多少华氏度，这个温度的1/4是多少？"
     agent.run(question)
 
 
